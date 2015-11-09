@@ -1,0 +1,18 @@
+*{
+	font-family: 'Roboto', sans-serif;
+}
+.navegador{
+	padding: 5%;
+}
+
+#page_effect {
+    -webkit-animation: fadein 2.5s; /* Safari and Chrome */
+    -moz-animation: fadein 2.5s; /* Firefox */
+    -ms-animation: fadein 2.5s; /* Internet Explorer */
+    -o-animation: fadein 2.5s; /* Opera */
+    animation: fadein 2.5s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+} 
